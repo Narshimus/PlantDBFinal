@@ -21,15 +21,9 @@ namespace Final_Project
                 var output = PlantStore.Plants.Where(p => p.CommonName.ToLower().Contains(input));
                 if (!IsEmpty(output))
                 {
-                    int index = 0;
                     foreach (var i in output)
                     {
                         i.Print();
-                        index++;
-                        if (index % 10 == 0)
-                        {
-                            Console.ReadLine();
-                        }
                     }
                 }
             }
