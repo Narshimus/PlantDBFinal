@@ -3,24 +3,6 @@ namespace Final_Project
 {
     public class Plant
     {
-        //private string _id;
-        //private string _genus;
-        //private string _species;
-        //private string _scientific_name;
-        //private string _common_name;
-        //private string _family;
-        //private string _order;
-        //private string _class;
-        //private string _duration;
-        //private string _growth_habit;
-        //private string _invasive;
-        //private string _growth_rate;
-        //private string _mature_hight;
-        //private string _toxicity;
-        //private string _drought_tolerance;
-        //private string _shade_tolerance;
-        //private string _temperature_min;
-
         public string Id { get; set;}
         public string Genus { get; set;}
         public string Species { get; set;}
