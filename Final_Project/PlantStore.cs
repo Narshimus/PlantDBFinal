@@ -9,7 +9,7 @@ namespace Final_Project
         public static List<Plant> Plants = new List<Plant>();
         public static void Initializer()
         {
-            StreamReader sr = new StreamReader("usdaplants_sm.csv/../../..");
+            StreamReader sr = new StreamReader("../../usdaplants_sm.csv");
             int index = 0;
             string line;
             while ((line = sr.ReadLine()) != null)
